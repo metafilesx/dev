@@ -30,8 +30,19 @@ nav a {
 .hero {
     background-color: #2596be;
     height: 400px;
-    color: white;
     padding: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.hero-text {
+    flex: 1;
+    color: white;
     font-size: 2rem;
     text-align: center;
+}
+.hero-image {
+    flex: 1;
 }
